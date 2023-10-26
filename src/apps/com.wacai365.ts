@@ -7,9 +7,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '开屏广告',
-      activityIds: [
-        'com.wacai.android.wind.splash.WindDialogActivity',
-      ],
+      activityIds: ['com.wacai.android.wind.splash.WindDialogActivity'],
       rules: [
         {
           matches: '[id="com.byted.pangle.m:id/tt_splash_skip_btn"]',
